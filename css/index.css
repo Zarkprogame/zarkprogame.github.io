@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'calibri';
-}
-
 .container{
     width: 50%;
     margin: 0 auto;
+    font-family: 'calibri';
+    border: 1px solid #C0C0C0;
 }
 
 header{
@@ -25,7 +23,7 @@ header{
     margin: 0 auto;
 }
 
-img{
+header .menu img{
     width: 80px;
     float: left;
     padding: 5px;
@@ -65,4 +63,23 @@ nav ul li a::before{
 
 nav ul li a:hover::before{
     width: 100%;
+}
+
+.container h1{
+    text-align: center;
+    padding: 15px;
+}
+
+.container p{
+    padding: 20px;
+    text-align: justify;
+}
+
+.container img{
+    width: 300px;
+    padding: 10px;
+    margin-left: 110px;
+    border: 1px solid #C0C0C0;
+    border-radius: 8px;
+    background: #C0C0C0;
 }
