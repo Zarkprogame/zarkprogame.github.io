@@ -76,11 +76,59 @@ nav ul li a:hover::before{
     text-align: justify;
 }
 
-.container img{
+.container .amor{
     width: 300px;
     padding: 10px;
     margin-left: 110px;
     border: 1px solid #C0C0C0;
     border-radius: 8px;
     background: #C0C0C0;
+}
+
+footer{
+    width: 100%;
+    padding: 1rem 8%;
+    background-color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 60px;
+    margin-bottom: 1px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-image: url(../imagenes/face.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(../imagenes/ig.png);
+}
+
+.copy{
+    text-align: center;
 }
