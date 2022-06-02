@@ -94,6 +94,15 @@ nav ul li a:hover::before{
     width: 600px;
 }
 
+.pd{
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.pd img{
+    width: 840px;
+}
+
 footer{
     width: 100%;
     padding: 1rem 8%;
